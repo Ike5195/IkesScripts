@@ -1,9 +1,6 @@
---stop trying to skid.
---lmao, just leave. Its all obfuscated. Theres no point
---Anyways, heres the loadstring
---bro stop trying to skid. dumbass nigga
---all script credits go to me
---scripts used, Remote Spy, and Dex.
---UI Libary Credits are to the owner, I didnt create.
+--CREDITS
+--Script Credits - Ike5195 (me)
+--UI Library Credits - Credits to Creator
+--Obfuscator - MoonSec (thank you, so these dumb skids cant skid my script)
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/IkesScripts/main/NinjaLegends'))()
