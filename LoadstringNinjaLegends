@@ -6,4 +6,4 @@
 --scripts used, Remote Spy, and Dex.
 --UI Libary Credits are to the owner, I didnt create.
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/IkesScripts/main/Ike'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/IkesScripts/main/NinjaLegends'))()
