@@ -1,9 +1,3 @@
---ok now youre gonna skid this shit nice
---all credits to script owners, i didnt make any of the FE Scripts
-
-
-
-
 --Window
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Ike", "Ocean")
@@ -11,7 +5,6 @@ local Window = Library.CreateLib("Ike", "Ocean")
 
 
 
---Auto farm Red orbs
 local Main = Window:NewTab("FE Trolling Scripts")
 local MainSection = Main:NewSection("R6 Trolling Scripts")
 
@@ -61,6 +54,41 @@ end)
 
 
 
+local ScriptHubs = Window:NewTab("Script Hubs")
+local HubSection = ScriptHubs:NewSection("Script Hubs")
+
+--OwlHub
+HubSection:NewButton("Owlhub", "Works On Multiple Games + Universal Hub", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+--Vxpe V4
+HubSection:NewButton("Vape V4", "Bedwars Hub", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+--Future Client
+HubSection:NewButton("FutureClient", "Bedwars Hub", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+local UniMain = Window:NewTab("Universal Scripts")
+local UniSection = UniMain:NewSection("Universal Scripts")
+
+--Infinity Yield
+UniSection:NewButton("Infinity Yield", "Admin Commands", function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+end)
+
+--Remote Spy
+UniSection:NewButton("Vaeb RemoteSpy", "Helping Tool To make Scripts", function()
+	loadstring(game:HttpGet("https://https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/VaebRemoteSpy"))()
+end)
+
+--Dark Dex V3
+UniSection:NewButton("DarkDex v3", "Helping Tool To make Scripts", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
 
 
 
