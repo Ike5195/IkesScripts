@@ -1,0 +1,67 @@
+--ok now youre gonna skid this shit nice
+--all credits to script owners, i didnt make any of the FE Scripts
+
+
+
+
+--Window
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ike", "Ocean")
+
+
+
+
+--Auto farm Red orbs
+local Main = Window:NewTab("FE Trolling Scripts")
+local MainSection = Main:NewSection("R6 Trolling Scripts")
+
+
+--Reset
+MainSection:NewButton("Reset", "Resets your character.", function()
+	game.Players.LocalPlayer.Character.Head:Destroy()
+if game.Players.LocalPlayer.Character.Humanoid.Health < 5 then 
+    local deathmanok = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+    wait(1.5)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(deathmanok)
+end
+end)
+
+
+--FE TITTY
+MainSection:NewButton("FE Titty (HATS NEEDED)", "HATS - 5945909830, 11679229, 14463468", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/FE-Tid'))()
+end)
+
+--Orbit V2
+MainSection:NewButton("Orbit V2 (READ DESC)", "This Script Works With Any Hats", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/OrbitV2'))()
+end)
+
+--Among Us
+MainSection:NewButton("FE Among Us (READ DESC)", "Use Blocky Package With No Hats", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/LegoGame/main/furryesex'))()
+end)
+
+
+--FE Spider Script
+MainSection:NewButton("FE Spider Script", "No Hats Needed", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/FE-SpiderScript'))()
+end)
+
+--FE Dino Script
+MainSection:NewButton("FE Dino Script (HATS NEEDED)", "HATS - controlc.com/da743d08", function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PYXDYT/DinoBlox/main/FE%20Script'),true))()
+end)
+
+--FE Finger
+MainSection:NewButton("FE Finger (HATS NEEDED)", "HATS - 6470135113 | ONLY WORKS FOR R15 USERS", function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/Finger'),true))()
+end)
+
+
+
+
+
+
+
+
