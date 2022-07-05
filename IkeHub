@@ -123,7 +123,7 @@ CSSection:NewButton("Grabknife V3 | Mustardfoot and Tollonis", "CLIENT SIDED, Kn
 end)
 
 --Grabknife V4 Client Sided
-CSSection:NewButton("Grabknife V4 | Mustardfoot and Tollonis", "CLIENT SIDED, Knife Grab", function()
+CSSection:NewButton("Grabknife V4", "CLIENT SIDED, Knife Grab", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/7zK1Swpt"))()
 end)
 
@@ -147,7 +147,13 @@ SSSection:NewButton("TOPK3K 5.0", "FE, SS, The script saves to your clipboard", 
 end)
 
 --Grab Knife V3
-SSSection:NewButton("Grab Knife V3 | Mustardfoot and Tollonis", "FE, SS, The script saves to your clipboard", function()
+SSSection:NewButton("Grab Knife V3", "FE, SS, The script saves to your clipboard", function()
 	setclipboard("https://pastebin.com/raw/c79eT9Bp")
+end)
+
+
+--Grab Knife V3
+SSSection:NewButton("Grab Gun", "FE, SS, The script saves to your clipboard", function()
+	setclipboard("https://pastebin.com/raw/7GzPi8H3")
 end)
 
