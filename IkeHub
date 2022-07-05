@@ -5,12 +5,13 @@ local Window = Library.CreateLib("Ike", "Ocean")
 
 
 
-local Main = Window:NewTab("FE Trolling Scripts")
-local MainSection = Main:NewSection("R6 Trolling Scripts")
+
+local ScriptHubs = Window:NewTab("FE Scripts")
+local HubSection = ScriptHubs:NewSection("FE Scripts")
 
 
 --Reset
-MainSection:NewButton("Reset", "Resets your character.", function()
+HubSection:NewButton("Reset", "Resets your character.", function()
 	game.Players.LocalPlayer.Character.Head:Destroy()
 if game.Players.LocalPlayer.Character.Humanoid.Health < 5 then 
     local deathmanok = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
@@ -21,41 +22,35 @@ end)
 
 
 --FE TITTY
-MainSection:NewButton("Titty", "FE, HATS - 5945909830, 11679229, 14463468", function()
+HubSection:NewButton("Titty", "FE, HATS - 5945909830, 11679229, 14463468", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/FE-Tid'))()
 end)
 
 --Orbit V2
-MainSection:NewButton("Orbit V2", "FE, This Script Works With Any Hats", function()
+HubSection:NewButton("Orbit V2", "FE, This Script Works With Any Hats", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/OrbitV2'))()
 end)
 
 --Among Us
-MainSection:NewButton("Among Us", "FE, Use Blocky Package", function()
+HubSection:NewButton("Among Us", "FE, Use Blocky Package", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/LegoGame/main/furryesex'))()
 end)
 
 
 --FE Spider Script
-MainSection:NewButton("Spider Script", "FE, leave game and rejoin when done", function()
+HubSection:NewButton("Spider Script", "FE, leave game and rejoin when done", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/FE-SpiderScript'))()
 end)
 
 --FE Dino Script
-MainSection:NewButton("Dino Script ", "FE, HATS - controlc.com/da743d08", function()
+HubSection:NewButton("Dino Script ", "FE, HATS - controlc.com/da743d08", function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PYXDYT/DinoBlox/main/FE%20Script'),true))()
 end)
 
 --FE Finger
-MainSection:NewButton("Finger", "FE, HATS - 6470135113 | ONLY WORKS FOR R15 USERS", function()
+HubSection:NewButton("Finger", "FE, HATS - 6470135113 | ONLY WORKS FOR R15 USERS", function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/Finger'),true))()
 end)
-
-
-
-
-local ScriptHubs = Window:NewTab("Scripts")
-local HubSection = ScriptHubs:NewSection("Scripts")
 
 --OwlHub
 HubSection:NewButton("Owlhub | Crishoux", "FE, Universal Hub", function()
@@ -98,16 +93,6 @@ HubSection:NewButton("Topk3k V4 | Nosyliam (LEAKED)", "FE/CLIENT | a paid SS hub
 	loadstring(game:HttpGet("https://pastebin.com/raw/WPRX0eY4"))()
 end)
 
---Grabknife V4 Client Sided
-HubSection:NewButton("Grabknife V4", "CLIENT SIDED, Knife Grab", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/7zK1Swpt"))()
-end)
-
---Grabknife V3 Client Sided
-HubSection:NewButton("Grabknife V3", "CLIENT SIDED, Knife Grab", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/TPZXG8fH"))()
-end)
-
 --Ro-Exploit
 HubSection:NewButton("Ro-Exploit | Krystal Team", "FE, Admin Commands and GUI", function()
 	loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
@@ -122,5 +107,47 @@ end)
 --HatHub
 HubSection:NewButton("HatHub (FREE VERSION)", "FE, HATS - .gg/RuQzGMwzP7", function()
 	loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
+end)
+
+
+
+
+
+
+local CSHubs = Window:NewTab("Client Sided Scripts")
+local CSSection = CSHubs:NewSection("Client Sided Scripts")
+
+--Grabknife V3 Client Sided
+CSSection:NewButton("Grabknife V3 | Mustardfoot and Tollonis", "CLIENT SIDED, Knife Grab", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TPZXG8fH"))()
+end)
+
+--Grabknife V4 Client Sided
+CSSection:NewButton("Grabknife V4 | Mustardfoot and Tollonis", "CLIENT SIDED, Knife Grab", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/7zK1Swpt"))()
+end)
+
+
+
+
+
+
+
+local SSHubs = Window:NewTab("SS Scripts")
+local SSSection = SSHubs:NewSection("Server Sided Scripts will be saved to your clipboard.")
+
+--Felipe Ascension 
+SSSection:NewButton("Felipe Ascension", "FE, SS, The script saves to your clipboard", function()
+	setclipboard("https://pastebin.com/raw/17i2UJpE")
+end)
+
+--TOPK3K 5.0
+SSSection:NewButton("TOPK3K 5.0", "FE, SS, The script saves to your clipboard", function()
+	setclipboard("https://pastebin.com/raw/mAgd8bPm")
+end)
+
+--Grab Knife V3
+SSSection:NewButton("Grab Knife V3 | Mustardfoot and Tollonis", "FE, SS, The script saves to your clipboard", function()
+	setclipboard("https://pastebin.com/raw/c79eT9Bp")
 end)
 
