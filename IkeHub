@@ -116,12 +116,11 @@ end)
 
 --c00lkidd
 HubSection:NewButton("c00lkidd Reborn | LordMuhamad", "FE, Admin GUI. FE version of OG gui", function()
-	loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
+	loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 end)
 
 --HatHub
 HubSection:NewButton("HatHub (FREE VERSION)", "FE, HATS - .gg/RuQzGMwzP7", function()
 	loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
 end)
-
 
