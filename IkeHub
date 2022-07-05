@@ -152,7 +152,7 @@ SSSection:NewButton("Grab Knife V3", "FE, SS, The script saves to your clipboard
 end)
 
 
---Grab Knife V3
+--Grab Gun
 SSSection:NewButton("Grab Gun", "FE, SS, The script saves to your clipboard", function()
 	setclipboard("https://pastebin.com/raw/7GzPi8H3")
 end)
