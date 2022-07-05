@@ -21,33 +21,33 @@ end)
 
 
 --FE TITTY
-MainSection:NewButton("FE Titty (HATS NEEDED)", "HATS - 5945909830, 11679229, 14463468", function()
+MainSection:NewButton("Titty", "FE, HATS - 5945909830, 11679229, 14463468", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/FE-Tid'))()
 end)
 
 --Orbit V2
-MainSection:NewButton("Orbit V2 (READ DESC)", "This Script Works With Any Hats", function()
+MainSection:NewButton("Orbit V2", "FE, This Script Works With Any Hats", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/OrbitV2'))()
 end)
 
 --Among Us
-MainSection:NewButton("FE Among Us (READ DESC)", "Use Blocky Package With No Hats", function()
+MainSection:NewButton("Among Us", "FE, Use Blocky Package", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/LegoGame/main/furryesex'))()
 end)
 
 
 --FE Spider Script
-MainSection:NewButton("FE Spider Script", "No Hats Needed", function()
+MainSection:NewButton("Spider Script", "FE, leave game and rejoin when done", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/FE-SpiderScript'))()
 end)
 
 --FE Dino Script
-MainSection:NewButton("FE Dino Script (HATS NEEDED)", "HATS - controlc.com/da743d08", function()
+MainSection:NewButton("Dino Script ", "FE, HATS - controlc.com/da743d08", function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PYXDYT/DinoBlox/main/FE%20Script'),true))()
 end)
 
 --FE Finger
-MainSection:NewButton("FE Finger (HATS NEEDED)", "HATS - 6470135113 | ONLY WORKS FOR R15 USERS", function()
+MainSection:NewButton("Finger", "FE, HATS - 6470135113 | ONLY WORKS FOR R15 USERS", function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/Finger'),true))()
 end)
 
@@ -58,36 +58,71 @@ local ScriptHubs = Window:NewTab("Scripts")
 local HubSection = ScriptHubs:NewSection("Scripts")
 
 --OwlHub
-HubSection:NewButton("Owlhub | Crishoux", "Works On Multiple Games + Universal Hub", function()
+HubSection:NewButton("Owlhub | Crishoux", "FE, Universal Hub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
 
 --Vxpe V4
-HubSection:NewButton("Vape V4 | 7GrandDadPGN", "Bedwars Hub", function()
+HubSection:NewButton("Vape V4 | 7GrandDadPGN", "FE, Bedwars Hub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
 --Future Client
-HubSection:NewButton("FutureClient | Joeengo", "Bedwars Hub", function()
+HubSection:NewButton("FutureClient | Joeengo", "FE, Bedwars Hub", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
 end)
 
 --Infinity Yield
-HubSection:NewButton("Infinite Yield", "Admin Commands", function()
+HubSection:NewButton("Infinite Yield", "FE, Admin Commands", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
 --Remote Spy
-HubSection:NewButton("RemoteSpy | Vaeb", "A Script To Help View Fuctions", function()
+HubSection:NewButton("RemoteSpy | Vaeb", "FE, A Script To Help View Fuctions.", function()
 	loadstring(game:HttpGet("https://https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/VaebRemoteSpy"))()
 end)
 
 --Dark Dex V3
-HubSection:NewButton("DarkDex v3", "Helping Tool To make Scripts", function()
+HubSection:NewButton("DarkDex v3", "FE, Helping Tool To make Scripts", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 end)
 
 --Pendulum Hub
-HubSection:NewButton("Pendulum Hub | Leaked", "A Paid FE Hub. LEAKED/CRACKED Version", function()
+HubSection:NewButton("Pendulum Hub V5 | Tescalus (LEAKED)", "FE, a paid FE hub, thats leaked.", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 end)
+
+
+--Topk3k V4
+HubSection:NewButton("Topk3k V4 | Nosyliam (LEAKED)", "FE/CLIENT | a paid SS hub turned into an FE hub, thats leaked", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/WPRX0eY4"))()
+end)
+
+--Grabknife V4 Client Sided
+HubSection:NewButton("Grabknife V4", "CLIENT SIDED, Knife Grab", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/7zK1Swpt"))()
+end)
+
+--Grabknife V3 Client Sided
+HubSection:NewButton("Grabknife V3", "CLIENT SIDED, Knife Grab", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TPZXG8fH"))()
+end)
+
+--Ro-Exploit
+HubSection:NewButton("Ro-Exploit | Krystal Team", "FE, Admin Commands and GUI", function()
+	loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
+end)
+
+
+--c00lkidd
+HubSection:NewButton("c00lkidd Reborn | LordMuhamad", "FE, Admin GUI. FE version of OG gui", function()
+	loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
+end)
+
+--HatHub
+HubSection:NewButton("HatHub (FREE VERSION)", "FE, HATS - .gg/RuQzGMwzP7", function()
+	loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
+end)
+
+
+
