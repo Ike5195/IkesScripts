@@ -79,7 +79,7 @@ end)
 
 --Remote Spy
 HubSection:NewButton("RemoteSpy | Vaeb", "FE, A Script To Help View Fuctions.", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/yJzq5ceV"))()
+	loadstring(game:HttpGet("https://https://raw.githubusercontent.com/Ike5195/FE-SCRIPTS/main/VaebRemoteSpy"))()
 end)
 
 --Dark Dex V3
@@ -123,6 +123,5 @@ end)
 HubSection:NewButton("HatHub (FREE VERSION)", "FE, HATS - .gg/RuQzGMwzP7", function()
 	loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
 end)
-
 
 
